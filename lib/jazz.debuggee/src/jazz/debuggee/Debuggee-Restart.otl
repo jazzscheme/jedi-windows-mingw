@@ -1,0 +1,5 @@
+(module jazz.debuggee.Debuggee-Restart jazz
+  (class Debuggee-Restart extends Object
+    (method public virtual (get-id))
+    (method public virtual (get-name))
+    (method public virtual (get-message))))

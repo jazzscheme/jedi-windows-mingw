@@ -1,0 +1,4 @@
+(module jazz.sample.gomoku.graphics jazz
+  (import (jazz.io))
+  (import (jazz.sample.gameserver.imagemagick))
+  (import (jazz.system)))

@@ -1,0 +1,2 @@
+(module jazz.graphic.platform.windows.Picture-Job jazz
+  (class Picture-Job extends Object))

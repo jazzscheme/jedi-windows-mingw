@@ -1,0 +1,2 @@
+(module jazz.platform.windows.WinIDL jazz
+  (import (jazz.foreign)))

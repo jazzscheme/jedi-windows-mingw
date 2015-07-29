@@ -1,0 +1,11 @@
+(module jazz.system.performance.platform.windows.Performance-Query jazz
+  (import (jazz.platform))
+  (import (jazz.system))
+  (class Performance-Query extends Object
+    (slot query)
+    (method protected override (initialize))
+    (method protected override (destroy))
+    (method public final (add-counter . rest))
+    (method public final (collect-data))
+    (method public final (get-counter-value counter))
+    (method protected final (validate-status status))))

@@ -1,0 +1,10 @@
+(module jedi.application.Jedi-Status jazz
+  (import (jazz.debugger))
+  (import (jazz.ide))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.system.access))
+  (import (jazz.ui))
+  (import (jazz.ui.workspace))
+  (import (jedi))
+  (class Jedi-Status extends IDE-Status))

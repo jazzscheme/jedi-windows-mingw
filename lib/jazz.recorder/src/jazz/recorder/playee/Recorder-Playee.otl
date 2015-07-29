@@ -1,0 +1,12 @@
+(module jazz.recorder.playee.Recorder-Playee jazz
+  (import (jazz.recorder))
+  (import (jazz.recorder.playee.stub))
+  (import (jazz.recorder.Macro-Recorder))
+  (import (jazz.system.access))
+  (class Recorder-Playee extends Object
+    (method protected override (initialize))
+    (method protected final (setup-playback))
+    (method public final (start-recording))
+    (method public final (stop-recording))
+    (method public final (play-recording player))
+    (method public final (end-playing player))))

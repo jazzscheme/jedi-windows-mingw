@@ -1,0 +1,25 @@
+(package jazz.debuggee
+  
+  (root "src")
+  (products (jazz.debuggee (update jazz.debuggee
+                                   jazz.debuggee.setup
+                                   jazz.debuggee.stub
+                                   jazz.debuggee.update
+                                   jazz.debuggee.view
+                                   jazz.debuggee.ui
+                                   jazz.debuggee.ui.stub)
+                           (dependencies jazz))
+            (debuggee (update jazz.editor.jazz.inspector
+                              jazz.system.access
+                              jazz.debugger.jazz.stub
+                              jazz.debugger.jazz.stub-autoload)
+                      (dependencies jazz.debuggee
+                                    jazz.debuggee.jazz
+                                    jazz.core
+                                    jazz.io
+                                    jazz.jrm
+                                    jazz.library
+                                    jazz.network
+                                    profiler
+                                    srfi-19)))
+  (project ".project"))

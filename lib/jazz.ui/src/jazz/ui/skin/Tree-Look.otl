@@ -1,0 +1,10 @@
+(module jazz.ui.skin.Tree-Look jazz
+  (import (jazz.ui))
+  (class Tree-Look extends Look
+    (property background accessors generate)
+    (property text-color accessors generate)
+    (property line-color accessors generate)
+    (property focused-border accessors generate)
+    (property focused-color accessors generate)
+    (property unfocused-border accessors generate)
+    (property unfocused-color accessors generate)))

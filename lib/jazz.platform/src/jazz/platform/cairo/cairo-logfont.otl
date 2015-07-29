@@ -1,0 +1,7 @@
+(module jazz.platform.cairo.cairo-logfont jazz
+  (import (jazz.foreign))
+  (import (jazz.platform))
+  (import (jazz.platform.windows.WinGDI))
+  (import (jazz.platform.cairo.cairo-base))
+  (definition package (cairo_logfont_glyph_index font char))
+  (definition public cairo_win32_font_face_create_for_logfontw))

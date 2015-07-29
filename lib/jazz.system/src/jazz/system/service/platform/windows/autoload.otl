@@ -1,0 +1,4 @@
+(module jazz.system.service.platform.windows.autoload jazz
+  (export (jazz.system.service.platform.windows.Service (autoload Service Service)))
+  (export (jazz.system.service.platform.windows.Service-Handle (autoload Service-Handle Service-Handle)))
+  (export (jazz.system.service.platform.windows.Service-Manager (autoload Service-Manager Service-Manager))))

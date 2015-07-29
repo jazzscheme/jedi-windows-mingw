@@ -1,0 +1,17 @@
+(module jazz.database.odbc jazz
+  (import (jazz.database))
+  (import (jazz.platform.odbc))
+  (import (jazz.schema))
+  (class ODBC-Connection extends Connection
+    (slot henv accessors generate)
+    (slot hdbc accessors generate)
+    (method protected override (setup-connection))
+    (method protected override (destroy-connection))
+    (method protected override (open data-source . rest))
+    (method protected final (resultset->Data-Table resultset))
+    (method protected override (begin-transaction))
+    (method protected override (commit-transaction))
+    (method protected override (rollback-transaction))
+    (method protected override (execute request))
+    (method protected override (load-request request (convert?: convert? (unspecified))))
+    (method protected override (load-multirequest request (convert?: convert? (unspecified)) (strategy: strategy (unspecified))))))

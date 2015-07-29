@@ -1,0 +1,6 @@
+(module jazz.database.ado.inventory.ADO-Provider jazz
+  (import (jazz.database))
+  (class ADO-Provider extends Provider
+    (method protected override (external-name))
+    (method protected override (supports-multirequests?))
+    (method protected override (present))))

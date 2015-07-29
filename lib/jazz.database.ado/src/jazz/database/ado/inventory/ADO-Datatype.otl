@@ -1,0 +1,3 @@
+(module jazz.database.ado.inventory.ADO-Datatype jazz
+  (import (jazz.schema))
+  (class ADO-Datatype extends Datatype))

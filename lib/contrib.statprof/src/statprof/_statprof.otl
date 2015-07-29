@@ -1,0 +1,4 @@
+(module statprof jazz
+  (require (profiler))
+  (require (statprof.implementation))
+  (native statprof))

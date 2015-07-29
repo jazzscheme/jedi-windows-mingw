@@ -1,0 +1,5 @@
+(module jazz.database.ado.connection.ADO-Request jazz
+  (import (jazz.database))
+  (import (jazz.database.ado))
+  (class ADO-Request extends Request
+    (method protected override (new-recordset request . rest))))

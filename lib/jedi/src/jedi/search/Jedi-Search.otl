@@ -1,0 +1,8 @@
+(module jedi.search.Jedi-Search jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (import (jedi))
+  (class Jedi-Search extends Search-Manager
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

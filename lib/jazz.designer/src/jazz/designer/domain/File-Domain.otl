@@ -1,0 +1,7 @@
+(module jazz.designer.domain.File-Domain jazz
+  (import (jazz.designer))
+  (import (jazz.io))
+  (class File-Domain extends Domain
+    (method protected override (present-value value))
+    (method protected override (parse-presentation text))
+    (method protected override (setup-entry view client))))

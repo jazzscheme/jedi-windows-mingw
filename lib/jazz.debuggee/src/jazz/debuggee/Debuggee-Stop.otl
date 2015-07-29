@@ -1,0 +1,9 @@
+(module jazz.debuggee.Debuggee-Stop jazz
+  (class Debuggee-Stop extends Object
+    (method public virtual (get-id))
+    (method public virtual (get-kind))
+    (method public virtual (get-reason))
+    (method public virtual (get-location))
+    (method public virtual (get-detail))
+    (method public virtual (get-restarts))
+    (method public virtual (get-frames))))

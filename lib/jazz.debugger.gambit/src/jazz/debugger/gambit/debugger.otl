@@ -1,0 +1,2 @@
+(unit jazz.debugger.gambit.debugger
+  (require (jazz.debugger.gambit.rdi)))

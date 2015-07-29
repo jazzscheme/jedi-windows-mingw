@@ -1,0 +1,4 @@
+(module jazz.product jazz
+  (import (jazz.io))
+  (definition public (install-application descriptor destination (name: name (unspecified)) (application?: application? (unspecified)) (executable?: executable? (unspecified)) (source-access?: source-access? (unspecified)) (scriptable?: scriptable? (unspecified)) (platform?: platform? (unspecified)) (opengl?: opengl? (unspecified)) (git?: git? (unspecified)) (files: files (unspecified)) (directories: directories (unspecified)) (ignored-contents: ignored-contents (unspecified))))
+  (definition public (deploy-application descriptor installation-directory)))

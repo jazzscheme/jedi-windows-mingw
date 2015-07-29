@@ -1,0 +1,15 @@
+(module jazz.database.ado.connection.ADO-Connection jazz
+  (import (jazz.database))
+  (import (jazz.database.ado))
+  (import (jazz.platform))
+  (class ADO-Connection extends Connection
+    (slot handle getter generate)
+    (method protected override (setup-connection))
+    (method protected override (destroy-connection))
+    (method protected override (open data-source . rest))
+    (method protected override (get-state))
+    (method protected override (new-request))
+    (method protected override (execute command))
+    (method protected override (begin-transaction))
+    (method protected override (commit-transaction))
+    (method protected override (rollback-transaction))))

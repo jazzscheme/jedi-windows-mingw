@@ -1,0 +1,10 @@
+(module jazz.platform.windows.WinShell jazz
+  (import (jazz.foreign))
+  (import (jazz.platform.windows.WinTypes))
+  (import (jazz.platform.windows.WinDef))
+  (definition public WPARAM->HDROP)
+  (definition public ShellExecute)
+  (definition public DragAcceptFiles)
+  (definition public DragQueryFile)
+  (definition public DragQueryPoint)
+  (definition public DragFinish))

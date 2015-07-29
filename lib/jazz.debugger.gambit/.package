@@ -1,0 +1,10 @@
+(package jazz.debugger.gambit
+  
+  (root "src")
+  (products (jazz.debugger.gambit (update jazz.debugger.gambit
+                                          jazz.debugger.gambit.data.project
+                                          jazz.debugger.gambit.debugger
+                                          jazz.debugger.gambit.rdi)
+                                  (dependencies jazz
+                                                jazz.debugger)))
+  (project ".project"))

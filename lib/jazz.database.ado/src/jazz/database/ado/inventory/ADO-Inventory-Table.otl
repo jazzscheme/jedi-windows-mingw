@@ -1,0 +1,3 @@
+(module jazz.database.ado.inventory.ADO-Inventory-Table jazz
+  (import (jazz.database))
+  (class ADO-Inventory-Table extends Inventory-Table))

@@ -1,0 +1,7 @@
+(module jazz.evaluate jazz
+  (import (jazz.debuggee))
+  (import (jazz.io))
+  (import (jazz.platform))
+  (import (jazz.system))
+  (definition package (effective-evaluation-mode evaluation-mode))
+  (definition public (evaluate-forms syntax str container line col evaluation-mode (expand?: expand? (unspecified)))))

@@ -1,0 +1,12 @@
+(module jedi.validate.Jedi-Tester jazz
+  (import (jazz.debuggee))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.recorder))
+  (import (jazz.runtime))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (jazz.ui.window))
+  (import (jazz.validation))
+  (class Jedi-Tester extends Tester
+    (method protected override (test))))

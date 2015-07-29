@@ -1,0 +1,6 @@
+(module jazz.recorder.player.Recorder-Player jazz
+  (import (jazz.recorder))
+  (import (jazz.recorder.player.stub))
+  (class Recorder-Player extends Object
+    (method public final (playee-feedback playee step))
+    (method public final (play-recording-feedback playee))))

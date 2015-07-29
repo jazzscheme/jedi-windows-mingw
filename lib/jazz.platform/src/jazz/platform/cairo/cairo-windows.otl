@@ -1,0 +1,10 @@
+(module jazz.platform.cairo.cairo-windows jazz
+  (import (jazz.foreign))
+  (import (jazz.platform))
+  (import (jazz.platform.cairo.cairo-base))
+  (definition public cairo_win32_surface_create)
+  (definition public cairo_win32_surface_create_with_dib)
+  (definition public cairo_win32_surface_create_with_ddb)
+  (definition public cairo_win32_surface_get_dc)
+  (definition public cairo_win32_printing_surface_create)
+  (definition public (create-cairo-image-surface compatibility width height)))

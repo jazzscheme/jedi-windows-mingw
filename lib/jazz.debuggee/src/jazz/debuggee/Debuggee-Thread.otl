@@ -1,0 +1,8 @@
+(module jazz.debuggee.Debuggee-Thread jazz
+  (class Debuggee-Thread extends Object
+    (method public virtual (get-id))
+    (method public virtual (get-name))
+    (method public virtual (get-state))
+    (method public virtual (get-debugged-continuation?))
+    (method public virtual (get-stops))
+    (method public virtual (set-repl-frame frame-proxy))))

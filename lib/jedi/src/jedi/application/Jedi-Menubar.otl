@@ -1,0 +1,32 @@
+(module jedi.application.Jedi-Menubar jazz
+  (import (jazz.ide))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.locale))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (class Jedi-Menubar extends Menubar
+    (method meta protected override (host-icon))
+    (method meta protected override (host-title))
+    (method protected override (install rest)))
+  (class View-Menu extends Menu
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms)))
+  (class Project-Menu extends Menu
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms)))
+  (class Debug-Menu extends Menu
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (update)))
+  (class Tools-Menu extends Menu
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms)))
+  (class Help-Menu extends Menu
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

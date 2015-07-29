@@ -1,0 +1,9 @@
+(module jazz.ui.screen.Screen jazz
+  (import (jazz.platform))
+  (import (jazz.ui))
+  (import (jazz.ui.screen))
+  (class Screen extends Object
+    (slot handle getter generate)
+    (method protected override (initialize handle))
+    (method public final (get-frame-rect))
+    (method public final (get-content-rect))))

@@ -1,0 +1,8 @@
+(module jazz.graphic.platform.windows.Bitmap jazz
+  (import (jazz.platform))
+  (class Bitmap extends Object
+    (slot handle)
+    (method protected override (initialize (handle: handle (unspecified)) (surface: surface (unspecified)) (width: width (unspecified)) (height: height (unspecified))))
+    (method protected override (destroy))
+    (method protected final (get-handle))
+    (method public final (get-size))))

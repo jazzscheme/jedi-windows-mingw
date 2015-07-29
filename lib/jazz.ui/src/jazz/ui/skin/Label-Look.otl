@@ -1,0 +1,4 @@
+(module jazz.ui.skin.Label-Look jazz
+  (import (jazz.ui))
+  (class Label-Look extends Look
+    (property text-color accessors generate)))

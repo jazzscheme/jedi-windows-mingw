@@ -1,0 +1,8 @@
+(module jedi.application.Jedi-Toplevel jazz
+  (import (jazz.ide))
+  (import (jazz.jml))
+  (import (jedi))
+  (class Jedi-Toplevel extends IDE-Toplevel
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

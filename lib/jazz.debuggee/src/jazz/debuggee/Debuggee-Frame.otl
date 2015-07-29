@@ -1,0 +1,9 @@
+(module jazz.debuggee.Debuggee-Frame jazz
+  (class Debuggee-Frame extends Object
+    (method public virtual (get-id))
+    (method public virtual (get-continuation))
+    (method public virtual (get-name))
+    (method public virtual (get-interpreted?))
+    (method public virtual (get-hidden?))
+    (method public virtual (get-location))
+    (method public virtual (get-variables kind))))

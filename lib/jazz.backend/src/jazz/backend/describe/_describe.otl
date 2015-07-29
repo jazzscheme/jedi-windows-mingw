@@ -1,0 +1,3 @@
+(module jazz.backend.describe jazz
+  (require (scheme.backend.describe))
+  (import (jazz.backend.describe.emit)))

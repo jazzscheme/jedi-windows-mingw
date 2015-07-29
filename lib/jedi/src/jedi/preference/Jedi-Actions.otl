@@ -1,0 +1,9 @@
+(module jedi.preference.Jedi-Actions jazz
+  (import (jedi))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Jedi-Actions extends Actions
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

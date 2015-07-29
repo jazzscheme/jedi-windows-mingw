@@ -1,0 +1,11 @@
+(module jazz.database.Database-Data-Source jazz
+  (import (jazz.schema))
+  (import (jazz.database.ado))
+  (import (jazz.database.odbc))
+  (class Database-Data-Source extends Data-Source
+    (property backend accessors generate)
+    (method protected override (finish rest))
+    (method protected virtual (valid-backends))
+    (method protected override (new-connection))
+    (method protected virtual (convert-symbolic-sql symbolic-sql))
+    (method public final (post-process-request request))))

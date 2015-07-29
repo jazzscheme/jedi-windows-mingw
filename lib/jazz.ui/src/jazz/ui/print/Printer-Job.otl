@@ -1,0 +1,10 @@
+(module jazz.ui.print.Printer-Job jazz
+  (import (jazz.ui))
+  (import (jazz.platform))
+  (import (jazz.platform.cairo.cairo-windows))
+  (class Printer-Job extends Print-Job
+    (method protected override (offset-page surface))
+    (method protected override (start-document))
+    (method protected override (end-document))
+    (method protected override (start-page no))
+    (method protected override (end-page no))))

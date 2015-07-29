@@ -1,0 +1,8 @@
+(module jedi.convert jazz
+  (import (jazz.graphic.literals))
+  (import (jazz.io))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.library.component))
+  (definition protected (convert-settings-initial dot-jedi-dir))
+  (definition protected (convert-settings-205000 dot-jedi-dir)))

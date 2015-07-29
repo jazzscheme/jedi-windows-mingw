@@ -1,0 +1,10 @@
+(package jazz.recorder
+  
+  (root "src")
+  (products (jazz.recorder (update jazz.recorder
+                                   jazz.recorder.playee
+                                   jazz.recorder.playee.stub
+                                   jazz.recorder.player
+                                   jazz.recorder.player.stub)
+                           (dependencies jazz)))
+  (project ".project"))

@@ -1,0 +1,15 @@
+(module jazz.database.ado.connection.ADO-Recordset-Metadata jazz
+  (import (jazz.database))
+  (import (jazz.database.ado))
+  (import (jazz.platform))
+  (class ADO-Recordset-Metadata extends Recordset-Metadata
+    (slot handle getter generate)
+    (method protected override (initialize hnd))
+    (method protected override (destroy))
+    (method protected override (get-count))
+    (method protected override (get-field field-name))
+    (method protected override (get-field-value field-name))
+    (method protected override (get-field-name field))
+    (method protected override (get-field-type field))
+    (method protected override (get-field-size field))
+    (method protected override (get-field-precision field))))

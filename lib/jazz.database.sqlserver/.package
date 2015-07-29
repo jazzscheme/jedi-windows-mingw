@@ -1,0 +1,7 @@
+(package jazz.database.sqlserver
+  
+  (root "src")
+  (products (jazz.database.sqlserver (update jazz.database.sqlserver)
+                                     (dependencies jazz
+                                                   jazz.database)))
+  (project ".project"))

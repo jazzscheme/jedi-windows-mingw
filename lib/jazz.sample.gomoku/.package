@@ -1,0 +1,21 @@
+(package jazz.sample.gomoku
+  
+  (root "src")
+  (products (gomoku (alias jazz.sample.gomoku))
+            (jazz.sample.gomoku (title "Gomoku")
+                                (run jazz.sample.gomoku.run)
+                                (update jazz.sample.gomoku
+                                        jazz.sample.gomoku.graphics
+                                        jazz.sample.gomoku.run)
+                                (build (gomoku bundle: "gomoku"))
+                                (dependencies jazz
+                                              jazz.graphic
+                                              jazz.io
+                                              jazz.jml
+                                              jazz.library
+                                              jazz.media
+                                              jazz.platform
+                                              jazz.system
+                                              jazz.ui
+                                              jazz.sample.game)))
+  (project ".project"))

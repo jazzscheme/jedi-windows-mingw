@@ -1,0 +1,2 @@
+(module jazz.system.service.platform.windows.Service-Handle jazz
+  (class Service-Handle extends Object))

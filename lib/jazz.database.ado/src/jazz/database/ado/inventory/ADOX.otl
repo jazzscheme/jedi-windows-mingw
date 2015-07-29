@@ -1,0 +1,2 @@
+(module jazz.database.ado.inventory.ADOX jazz
+  (import (jazz.foreign)))

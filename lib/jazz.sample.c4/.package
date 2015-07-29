@@ -1,0 +1,25 @@
+(package jazz.sample.c4
+  
+  (root "src")
+  (products (c4 (alias jazz.sample.c4))
+            (jazz.sample.c4 (title "C4")
+                            (run jazz.sample.c4.run)
+                            (update jazz.sample.c4
+                                    jazz.sample.c4.graphics
+                                    jazz.sample.c4.run)
+                            (build (c4 bundle: "c4"))
+                            (dependencies jazz
+                                          jazz.graphic
+                                          jazz.io
+                                          jazz.jml
+                                          jazz.library
+                                          jazz.media
+                                          jazz.platform
+                                          jazz.system
+                                          jazz.ui
+                                          jazz.sample.game
+                                          
+                                          ;; for development
+                                          jazz.jrm
+                                          jazz.recorder)))
+  (project ".project"))

@@ -1,0 +1,3 @@
+(module jazz.system.service.platform.windows.Service jazz
+  (import (jazz.system.process))
+  (class Service extends Process))

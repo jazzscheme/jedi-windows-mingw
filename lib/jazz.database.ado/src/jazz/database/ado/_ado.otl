@@ -1,0 +1,6 @@
+(module jazz.database.ado jazz
+  (export (jazz.database.ado.autoload))
+  (export (jazz.database.ado.connection.ADODB))
+  (export (jazz.database.ado.inventory.ADOX))
+  (import (jazz.system))
+  (definition public (trace-ado cmd)))

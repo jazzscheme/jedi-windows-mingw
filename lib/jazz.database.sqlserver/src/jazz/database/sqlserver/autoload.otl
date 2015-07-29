@@ -1,0 +1,3 @@
+(module jazz.database.sqlserver.autoload jazz
+  (export (jazz.database.sqlserver.SQLServer-Data-Source (autoload SQLServer-Data-Source SQLServer-Data-Source)))
+  (export (jazz.database.sqlserver.inventory.SQLServer-Provider (autoload SQLServer-Provider SQLServer-Provider))))
